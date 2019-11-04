@@ -16,4 +16,4 @@ const HomeNavigation = createBottomTabNavigator({
     },
 })
 
-export default HomeNavigation;
+export default createAppContainer(HomeNavigation);
